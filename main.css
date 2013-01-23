@@ -1,9 +1,32 @@
+body{
+	background : url('img/gray_jean.png');
+}
+
+.text-center{
+	text-align: center ;
+}
+
+#hero{
+	background : url('img/hero_background.jpg');
+	webkit-transform:scale(1)
+
+}
+
 #myPicture{
-	width : 150px ;
+	width : 100% ;
 	margin : auto ;
+	-webkit-transition: -webkit-filter .3s;  
+	-webkit-filter: grayscale(80%);
+}
+
+#myPicture:hover{
+	-webkit-filter: grayscale(0%);
 }
 
 /* Projects */
+.thumbnail{
+	background : white;
+}
 .mainProject {
 }
 
@@ -14,20 +37,39 @@
 
 /* Skills */
 
-.skill{
-	height : 35px ;
+
+#skills{
+	margin-bottom : 80px;
 }
 
 #skills h4{
-	margin-top : 0 ;
-	margin-bottom : 5px;
-	font-size : 1.5em ;
-	text-align : center;
-	cursor: pointer ;
+	font-variant : small-caps;
+	margin-top : 5px ;
+	margin-bottom : 0;
 }
 
-#skills h4:hover{
+#skills hr{
+	margin : 5px ;
+}
+
+.skill h5{
+	font-size : 1.6em ;
+}
+
+.skill{
+	cursor : pointer;
+}
+
+.skill:hover h5{
 	font-size : 2em ;
+}
+
+.skillSet{
+	opacity : 0.5 ;
+}
+
+.skillSet:hover{
+	opacity : 1 ;
 }
 
 /* CV */
