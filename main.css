@@ -72,6 +72,9 @@ body{
 	opacity : 1 ;
 }
 
+.popover{
+	text-align: left ;
+}
 /* CV */
 
 #cv h2{

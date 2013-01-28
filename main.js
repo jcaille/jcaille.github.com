@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	$(".skill").popover();
+	$(".skill").popover({html : true});
 })
