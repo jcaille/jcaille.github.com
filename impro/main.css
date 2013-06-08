@@ -1,0 +1,216 @@
+#header{
+	padding : 70px;
+	background-color: #F1C40F;
+}
+
+#header h1{
+	margin : 30px;
+	/*margin-bottom : 50px;*/
+}
+
+.separator{
+	width : 100%;
+	height : 300px;
+	margin : 0;
+	padding : 70;
+	background-attachment : fixed;
+}
+
+#separator-1{
+	background-image: url("patterns/pw.png");
+}
+
+#separator-2{
+	background-image: url("patterns/mooning.png");
+}
+
+#separator-3{
+	background-image: url("patterns/paper.png");
+}
+
+#separator-4{
+	background: url("patterns/feather.png")
+}
+
+#separator-5{
+	background: url("patterns/sneaker.png")
+}
+
+#separator-6{
+	background: url("patterns/fabric.png")
+}
+#id-card-container{
+	background : #3498DB;
+	padding : 140px;
+	padding-bottom : 100px;
+}
+
+#id-card{
+	background : #ECF0F1;
+	border-radius: 6px;
+	padding-top : 40px;
+	padding-bottom : 40px;
+}
+
+.btn{
+	text-align : center;
+	margin-top : 100px;
+}
+
+#first-year-container{
+	background : #27AE60;
+	padding-top : 140px;
+	padding-bottom : 100px;
+}
+
+#first-year{
+	background : #ECF0F1;
+	border-radius: 6px;
+	padding-top : 40px;
+	padding-bottom : 40px;
+	padding-right: 50px;
+	padding-left : 50px;
+}
+
+h1.page-header{
+	text-align: center;
+	font-size: 2.5em;
+}
+#first-year .row{
+	margin-top : 30px;
+	margin-bottom : 60px;
+}
+
+#first-year p{
+	font-size : 1.5em;
+}
+
+#first-year-p-1{
+	margin-top : 50px;
+}
+
+#first-year-p-2{
+	margin-top : 25px;
+}
+
+#button-3{
+	margin-top : 100px;
+	font-size :1.2em;
+}
+
+#discover-container{
+	background : #F1C40F;
+	padding-top : 140px;
+	padding-bottom : 100px;
+}
+
+#discover{
+	background : #ECF0F1;
+	border-radius: 6px;
+	padding-top : 40px;
+	padding-bottom : 40px;
+	padding-right: 50px;
+	padding-left : 50px;
+}
+
+#discover .row{
+	margin-top : 30px;
+	margin-bottom : 60px;
+}
+
+#discover p{
+	font-size : 1.5em;
+}
+
+#discover-p-1{
+	margin-top : 40px;
+}
+
+#discover-p-2{
+	margin-top : 55px;
+}
+
+#discover-p-3{
+	margin-top : 15px;
+}
+
+#son-container{
+	background : #C0392B;
+	padding-top : 140px;
+	padding-bottom : 100px;
+}
+
+#son{
+	background : #ECF0F1;
+	border-radius: 6px;
+	padding-top : 40px;
+	padding-bottom : 40px;
+	padding-right: 50px;
+	padding-left : 50px;
+}
+
+#son .row{
+	margin-top : 30px;
+	margin-bottom : 60px;
+}
+
+#son p{
+	font-size : 1.5em;
+}
+
+#son-p-1{
+	margin-top : 50px;
+}
+
+#son-p-2{
+	margin-top : 25px;
+}
+
+#skill-container{
+	background : #8E44AD;
+	padding-top : 140px;
+	padding-bottom : 100px;
+}
+
+#skill{
+	background : white;
+	border-radius: 6px;
+	padding-top : 40px;
+	padding-bottom : 40px;
+	padding-right: 50px;
+	padding-left : 50px;
+}
+
+#skill .row{
+	margin-top : 10px;
+	margin-bottom : 30px;
+	font-size : 1.2em;
+}
+
+#network-container{
+	background : #34495E;
+	padding-top : 140px;
+	padding-bottom : 100px;
+}
+
+#network{
+	background : #ECF0F1;
+	border-radius: 6px;
+	padding-top : 40px;
+	padding-bottom : 40px;
+	padding-right: 50px;
+	padding-left : 50px;
+	text-align : center;
+}
+
+#friend-me #hover{
+	display: none;
+}
+
+#friend-me:hover #hover{
+	display: inline;
+}
+
+#friend-me:hover #no-hover{
+	display: none;
+}
