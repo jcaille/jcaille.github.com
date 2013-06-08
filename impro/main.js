@@ -67,7 +67,10 @@ $(document).ready(function(){
 
 	var current_fact = facts[Math.floor(Math.random()*facts.length)];
 	$("#did-you-know").html(current_fact)
-
+	$("#did-you-know").click(function(){
+		current_fact = facts[Math.floor(Math.random()*facts.length)];
+		$("#did-you-know").html(current_fact);
+	});
 
 	//QUALITY AND DEFAULT
 	var checkbox_items_true = [
