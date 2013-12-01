@@ -8,6 +8,7 @@ body{
 
 #hero{
 	background : url('img/hero_background.jpg');
+	background-size : cover;
 	webkit-transform:scale(1)
 
 }
@@ -33,6 +34,14 @@ body{
 .mainProject img {
 	width : 500px ;
 	border : solid #EEE 1px;
+}
+
+#video-row{
+	margin-left : 2px;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	background : url('img/video_back.jpg');
+	background-size : cover;
 }
 
 /* Skills */
